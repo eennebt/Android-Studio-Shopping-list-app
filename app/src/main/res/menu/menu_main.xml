@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.elias.andorid_assighment.MainActivity">
+    <item
+        android:id="@+id/Add"
+        android:orderInCategory="100"
+        android:title="Add_A_Record"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/View_Record"
+        android:title="View_record"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        />
+</menu>
